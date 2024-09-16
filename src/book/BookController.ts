@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import { autoInjectable, inject } from 'tsyringe';
-import BookService from './BookService';
 import IBookService from './IBookServices';
 
 @autoInjectable()
